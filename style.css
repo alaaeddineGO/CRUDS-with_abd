@@ -1,0 +1,120 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #141133;
+}
+.container{
+    max-width: 80%;
+    height: 100%;
+    margin: 20px auto;
+    background-color: #302b2b;
+    padding: 0 8px;
+
+}
+header{
+    width: 100%;
+    min-height: 75px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+header h2{
+    color: #fff;
+    font-size: 35px;
+    padding: 10px;
+    font-weight: 500;
+}
+header h3{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 200;
+}
+.inputs input{
+    height: 35px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: #251f1f;
+    outline: none;
+    margin-bottom: 10px;
+}
+.inputs #title{
+    width: 100%;
+}
+.inputs > div{
+    display: flex;
+}
+.inputs > div input{
+    width: calc(100% / 5);
+}
+.inputs > div button{
+    height: 34px;
+    min-width: 60Px;
+    margin-left: 15px;
+    font-size: 20px;
+    color: white;
+    background-color: #1ea927;
+    background-color: #ce1b1b;
+    border-radius: 9px;
+    outline: none;
+}
+#category{
+    width: 100%;
+}
+#btn_create{
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+    outline: none;
+    background-color: #430b99;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+#searsh{
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: #251f1f;
+    outline: none;
+    margin-bottom: 10px;
+    
+}
+.outinput > div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.outinput > div button{
+    height: 34px;
+    width: 48%;
+    font-size: 20px;
+    color: white;
+    background-color: #430b99;
+    border-radius: 9px;
+    outline: none;   
+ 
+}
+.outinput #btn_delete{
+    width: 100%;
+    height: 34px;
+    font-size: 20px;
+    color: white;
+    background-color: #430b99;
+    border-radius: 9px;
+    outline: none;  
+    margin-bottom: 10px;
+}
