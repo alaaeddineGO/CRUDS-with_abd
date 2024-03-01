@@ -15,10 +15,10 @@
         <div class="inputs">
             <input type="text" placeholder="title" id="title">
             <div>
-                <input type="number" placeholder="price" id="price">
-                <input type="number" placeholder="taxes" id="taxes">
-                <input type="number" placeholder="ads" id="ads">
-                <input type="number" placeholder="discount" id="discount">
+                <input onkeyup="getTotal()" type="number" placeholder="price" id="price">
+                <input onkeyup="getTotal()" type="number" placeholder="taxes" id="taxes">
+                <input onkeyup="getTotal()" type="number" placeholder="ads" id="ads">
+                <input onkeyup="getTotal()" type="number" placeholder="discount" id="discount">
                 <button id="total">total : </button>
             </div>
             <input type="number" placeholder="category" id="category">
@@ -30,7 +30,7 @@
                 <button id="btn_ser_title">search by title</button>
                 <button id="btn_ser_category">search by category</button>   
             </div>
-            <button id="btn_delete">delete</button>
+            <button id="btn_delete_all">delete</button>
             <table>
                 <tr>
                     <th>id</th>
@@ -52,8 +52,8 @@
                         <td>100</td>
                         <td>4</td>
                         <td>phone</td>
-                        <td><button>update</button></td>
-                        <td><button>delete</button></td>
+                        <td><button id="update">update</button></td>
+                        <td><button id="delete">delete</button></td>
                     </tr>
                 </tbody>
                
@@ -61,6 +61,6 @@
         </div>
     </div>
 
-    <script src="java C-1.js"></script>
+    <script src="java.js"></script>
 </body>
 </html>

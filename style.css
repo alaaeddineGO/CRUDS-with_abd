@@ -55,6 +55,9 @@ header h3{
 .inputs > div input{
     width: calc(100% / 5);
 }
+#total::before{
+    content: 'total : ';
+}
 .inputs > div button{
     height: 34px;
     cursor: pointer;
