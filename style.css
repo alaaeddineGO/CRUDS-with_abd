@@ -57,6 +57,7 @@ header h3{
 }
 .inputs > div button{
     height: 34px;
+    cursor: pointer;
     min-width: 60Px;
     margin-left: 15px;
     font-size: 20px;
@@ -72,6 +73,7 @@ header h3{
 }
 #btn_create{
     width: 100%;
+    cursor: pointer;
     height: 35px;
     border-radius: 10px;
     outline: none;
@@ -102,6 +104,7 @@ header h3{
 }
 .outinput > div button{
     height: 34px;
+    cursor: pointer;
     width: 48%;
     font-size: 20px;
     color: white;
@@ -119,13 +122,25 @@ header h3{
     border-radius: 9px;
     outline: none;  
     margin-bottom: 10px;
+    cursor: pointer;
     border: none;
 }
 table{
     width: 100%;
     font-size: 20px;
     color: #fff;
+    text-align: center;
 }
-td{
-    padding: 5px 20px;
+td button{
+    width: 90%;
+    cursor: pointer;
+    height: 34px;
+    font-size: 20px;
+    color: white;
+    background-color: #430b99;
+    border-radius: 9px;
+    outline: none;  
+    margin-bottom: 10px;
+    border: none;
+    
 }
