@@ -65,6 +65,7 @@ header h3{
     background-color: #ce1b1b;
     border-radius: 9px;
     outline: none;
+    border: none;
 }
 #category{
     width: 100%;
@@ -78,6 +79,7 @@ header h3{
     color: #fff;
     font-size: 20px;
     margin-bottom: 15px;
+    border: none;
 }
 #searsh{
     width: 100%;
@@ -106,7 +108,7 @@ header h3{
     background-color: #430b99;
     border-radius: 9px;
     outline: none;   
- 
+    border: none;
 }
 .outinput #btn_delete{
     width: 100%;
@@ -117,4 +119,13 @@ header h3{
     border-radius: 9px;
     outline: none;  
     margin-bottom: 10px;
+    border: none;
+}
+table{
+    width: 100%;
+    font-size: 20px;
+    color: #fff;
+}
+td{
+    padding: 5px 20px;
 }
