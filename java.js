@@ -25,3 +25,38 @@ const deleteb = document.getElementById('delete');
         }
 
     }
+//creat prodact
+    let dataPro;
+    if (localStorage.dataPro != null) {
+        dataPro = JSON.parse(localStorage.prodact);
+    }else{
+        dataPro = []
+    }
+    btn_create.onclick = function(){
+        let newPro = {
+            title : title.value,
+            price : price.value,
+            taxes : taxes.value,
+            ads : ads.value,
+            discount : discount.value,
+            total : total.innerHTML,
+            category : category.value,
+        }
+        dataPro.push(newPro)
+        localStorage.setItem('prodact',JSON.stringify(dataPro))
+        clearData()
+    }
+
+    //clear data
+
+    function clearData() {
+        title.value = '';
+        price.value = '';
+        taxes.value = '';
+        ads.value = '';
+        discount.value = '';
+        total.innerHTML = '';
+        category.value = '';
+        total.innerHTML = '';
+        category.value = '';
+    }
