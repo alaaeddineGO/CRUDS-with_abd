@@ -19,9 +19,9 @@
                 <input onkeyup="getTotal()" type="number" placeholder="taxes" id="taxes">
                 <input onkeyup="getTotal()" type="number" placeholder="ads" id="ads">
                 <input onkeyup="getTotal()" type="number" placeholder="discount" id="discount">
-                <button id="total">total : </button>
+                <button id="total"></button>
             </div>
-            <input type="number" placeholder="category" id="category">
+            <input type="text" placeholder="category" id="category">
             <button id="btn_create">create</button>
         </div>
         <div class="outinput">
@@ -30,12 +30,13 @@
                 <button id="btn_ser_title">search by title</button>
                 <button id="btn_ser_category">search by category</button>   
             </div>
-            <button id="btn_delete_all">delete</button>
+            <button id="btn_delete_all">delete all</button>
             <table>
                 <tr>
                     <th>id</th>
                     <th>title</th>
                     <th>price</th>
+                    <th>taxes</th>
                     <th>ads</th>
                     <th>discount</th>
                     <th>total</th>
@@ -43,18 +44,8 @@
                     <th>update</th>
                     <th>delete</th>
                 </tr>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>iphone</td>
-                        <td>14000</td>
-                        <td>250</td>
-                        <td>100</td>
-                        <td>4</td>
-                        <td>phone</td>
-                        <td><button id="update">update</button></td>
-                        <td><button id="delete">delete</button></td>
-                    </tr>
+                <tbody id="tbody">
+                   
                 </tbody>
                
             </table>
