@@ -21,16 +21,19 @@
                 <input onkeyup="getTotal()" type="number" placeholder="discount" id="discount">
                 <button id="total"></button>
             </div>
+            <input type="number" placeholder="count" id="count">
             <input type="text" placeholder="category" id="category">
             <button id="btn_create">create</button>
         </div>
         <div class="outinput">
-            <input type="text" placeholder="searsh" id="searsh">
+            <input type="text" onkeyup="searchData(this.value)"  placeholder="search" id="search">
             <div>
-                <button id="btn_ser_title">search by title</button>
-                <button id="btn_ser_category">search by category</button>   
+                <button onclick="getSearchMood(this.id)" id="btn_ser_title">search by title</button>
+                <button onclick="getSearchMood(this.id)" id="btn_ser_category">search by category</button>   
             </div>
-            <button id="btn_delete_all">delete all</button>
+            <div id="delete_all">
+                
+            </div>
             <table>
                 <tr>
                     <th>id</th>
